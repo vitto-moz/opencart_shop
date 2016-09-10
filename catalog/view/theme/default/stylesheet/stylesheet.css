@@ -685,6 +685,10 @@ h2.price {
 	margin-left: 20px;
 }
 
+.display-none{
+display: none;
+}
+
 @media (min-width: 1200px) {
 	#content .col-lg-2:nth-child(6n+1),
 	#content .col-lg-2:nth-child(6n+1),
@@ -747,3 +751,4 @@ h2.price {
     background-image: none;
     background-color: #df5c39;
 }
+

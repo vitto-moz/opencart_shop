@@ -1,0 +1,240 @@
+2016-09-10 22:46:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: irs_import_export_categories
+
+FILE: admin/language/en-gb/catalog/category.php
+CODE: $_['heading_title']          = 'Categories';
+LINE: 4
+
+FILE: admin/controller/catalog/category.php
+CODE: $data['add'] = $this->url->link('catalog/category/add', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 194
+CODE: protected function getForm() {
+LINE: 745
+
+FILE: admin/model/catalog/category.php
+CODE: public function editCategory($category_id, $data) {
+LINE: 61
+
+FILE: admin/view/template/catalog/category_list.tpl
+CODE: <div class="pull-right"><a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+LINE: 4
+----------------------------------------------------------------
+MOD: irs_import_export_products
+
+FILE: admin/language/en-gb/catalog/product.php
+CODE: $_['heading_title']          = 'Products';
+LINE: 4
+
+FILE: admin/controller/catalog/product.php
+CODE: $data['delete'] = $this->url->link('catalog/product/delete', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 338
+CODE: public function autocomplete() {
+LINE: 2322
+
+FILE: admin/model/catalog/product.php
+CODE: public function editProduct($product_id, $data) {
+LINE: 253
+
+FILE: admin/view/template/catalog/product_list.tpl
+CODE: <div class="pull-right"><a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+LINE: 4
+----------------------------------------------------------------
+2016-09-10 23:49:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: irs_import_export_categories
+
+FILE: admin/language/en-gb/catalog/category.php
+CODE: $_['heading_title']          = 'Categories';
+LINE: 4
+
+FILE: admin/controller/catalog/category.php
+CODE: $data['add'] = $this->url->link('catalog/category/add', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 194
+CODE: protected function getForm() {
+LINE: 745
+
+FILE: admin/model/catalog/category.php
+CODE: public function editCategory($category_id, $data) {
+LINE: 61
+
+FILE: admin/view/template/catalog/category_list.tpl
+CODE: <div class="pull-right"><a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+LINE: 4
+----------------------------------------------------------------
+MOD: irs_import_export_products
+
+FILE: admin/language/en-gb/catalog/product.php
+CODE: $_['heading_title']          = 'Products';
+LINE: 4
+
+FILE: admin/controller/catalog/product.php
+CODE: $data['delete'] = $this->url->link('catalog/product/delete', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 338
+CODE: public function autocomplete() {
+LINE: 2322
+
+FILE: admin/model/catalog/product.php
+CODE: public function editProduct($product_id, $data) {
+LINE: 253
+
+FILE: admin/view/template/catalog/product_list.tpl
+CODE: <div class="pull-right"><a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+LINE: 4
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-09-10 23:54:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool for OpenCart 2.0.x
+----------------------------------------------------------------
+MOD: irs_import_export_categories
+
+FILE: admin/language/en-gb/catalog/category.php
+CODE: $_['heading_title']          = 'Categories';
+LINE: 4
+
+FILE: admin/controller/catalog/category.php
+CODE: $data['add'] = $this->url->link('catalog/category/add', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 194
+CODE: protected function getForm() {
+LINE: 745
+
+FILE: admin/model/catalog/category.php
+CODE: public function editCategory($category_id, $data) {
+LINE: 61
+
+FILE: admin/view/template/catalog/category_list.tpl
+CODE: <div class="pull-right"><a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+LINE: 4
+----------------------------------------------------------------
+MOD: irs_import_export_products
+
+FILE: admin/language/en-gb/catalog/product.php
+CODE: $_['heading_title']          = 'Products';
+LINE: 4
+
+FILE: admin/controller/catalog/product.php
+CODE: $data['delete'] = $this->url->link('catalog/product/delete', 'token=' . $this->session->data['token'] . $url, true);
+LINE: 338
+CODE: public function autocomplete() {
+LINE: 2322
+
+FILE: admin/model/catalog/product.php
+CODE: public function editProduct($product_id, $data) {
+LINE: 253
+
+FILE: admin/view/template/catalog/product_list.tpl
+CODE: <div class="pull-right"><a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+LINE: 4
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------

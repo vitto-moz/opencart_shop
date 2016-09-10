@@ -77,7 +77,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="form-group">
-            <a href="<?php echo $compare; ?>" id="compare-total" class="btn btn-link"><?php echo $text_compare; ?></a>
+            <a href="<?php echo $compare; ?>" id="compare-total" class="btn btn-link display-none"><?php echo $text_compare; ?></a>
           </div>
         </div>
         <div class="col-md-4 col-xs-6">
@@ -126,7 +126,9 @@
                   <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
                   <?php } ?>
                   <?php if ($product['tax']) { ?>
-                  <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                  <div class="display-none">
+                    <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                  </div>
                   <?php } ?>
                 </p>
                 <?php } ?>
@@ -142,7 +144,7 @@
                 </div>
                 <?php } ?>
               </div>
-              <div class="button-group">
+              <div class="button-group display-none">
                 <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
                 <button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>
                 <button type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-exchange"></i></button>
